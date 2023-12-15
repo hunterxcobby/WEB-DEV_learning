@@ -1,0 +1,5 @@
+Think of HTML as the blueprint of a building, where each element (like headings, paragraphs, or images) is a different section in the plan. HTML gives structure and meaning to your content, just as a blueprint defines the layout of a building.
+
+Now, imagine CSS as the interior designer's job. It's not concerned with the structure but focuses on making everything look good. So, while HTML organizes the rooms, CSS decides on the colors, fonts, and styles to make it visually appealing.
+
+Remember, HTML and CSS are like two experts working on different aspects of a project. HTML deals with content structure, and CSS handles the presentation. They should be kept separate, just like how architects and interior designers work independently. Understanding this separation will help us build a well-organized and visually pleasing website.
