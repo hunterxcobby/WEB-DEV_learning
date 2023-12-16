@@ -33,6 +33,14 @@ h2 {
     padding: 10.5px;
     margin: 10.5px;
 }
+
+#cid_1 {
+  background-color: rgb(255, 229, 80); /* Set the background color of the div */
+  color: white; /* Set the text color */
+  border: 5px solid #333333;
+  padding: 10px;
+  margin: 10px;
+}
   
   /* Additional styles can be added based on your design preferences */
   
