@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f880;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+h2 {
+    color: #000000eb;
+}
+
+  h1 {
+    color: #000000eb;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #340096eb;
+}
+
+div {
+    background-color: rgb(80, 205, 255); /* Set the background color of the div */
+    color: white; /* Set the text color */
+    border: 3px solid #333;
+    padding: 10.5px;
+    margin: 10.5px;
+}
+  
+  /* Additional styles can be added based on your design preferences */
+  
