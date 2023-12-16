@@ -18,8 +18,15 @@ h2 {
     font-size: 20px;
     color: #340096eb;
 }
+.chapter1 {
+  background-color: rgb(255, 98, 80); /* Set the background color of the div */
+  color: white; /* Set the text color */
+  border: 3px solid #333333;
+  padding: 10.5px;
+  margin: 10.5px;
+}
 
-div {
+.chapter2 {
     background-color: rgb(80, 205, 255); /* Set the background color of the div */
     color: white; /* Set the text color */
     border: 3px solid #333;
