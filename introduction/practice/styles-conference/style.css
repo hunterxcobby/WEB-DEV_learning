@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f880;
-    color: #ffffff;
+    color: #070707;
     margin: 0;
     padding: 0;
   }
@@ -41,6 +41,25 @@ h2 {
   padding: 10px;
   margin: 10px;
 }
-  
+
+article p {
+  background-color: rgb(80, 255, 83); /* Set the background color of the div */
+  color: white; /* Set the text color */
+  border: 3px solid #333;
+  padding: 10.5px;
+  margin: 10.5px;
+}
+
+ul > li {
+  background-color: rgb(80, 255, 83); /* Set the background color of the div */
+  color: green; /* Set the text color */
+  border: 3px solid #333;
+  padding: 10.5px;
+  margin: 10.5px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
   /* Additional styles can be added based on your design preferences */
   
