@@ -1,0 +1,26 @@
+#food {
+  background: green;
+}
+p {
+  background: orange;
+}
+
+.hotdog p {
+    background: brown;
+  }
+
+.hotdog .mustard  {
+    background: yellow;
+}
+
+.btn {
+    font-size: 20px;
+  }
+
+.btn-danger {
+    background: red;
+  }
+
+.btn-success {
+    background: green;
+}
