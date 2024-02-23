@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def blog(request):
     return render(request, 'blog.html', {'name': 'Cobby'} )
+
+def add(request):
+    return render(request, 'result.html')
