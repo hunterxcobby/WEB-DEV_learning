@@ -10,7 +10,7 @@ def index(request):
     dest1.img = 'koforidua.jpg'
     dest1.desc = 'Your comfort zone'
     dest1.price = 700
-    dest2.offer = False
+    dest1.offer = False
 
     dest2 = Destination()
     dest2.name = 'Accra'
@@ -24,7 +24,7 @@ def index(request):
     dest3.img = 'kumasi.jpg'
     dest3.desc = 'The Garden City'
     dest3.price = 850
-    dest2.offer = False
+    dest3.offer = False
 
     
     dests = [
