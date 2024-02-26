@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'travellco',
-    'accounts'
+    'account'
 ]
 
 MIDDLEWARE = [
