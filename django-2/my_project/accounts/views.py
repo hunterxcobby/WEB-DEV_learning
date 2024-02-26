@@ -4,4 +4,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def register(request):
-    pass
+    
+    return render(request, 'register.html')
