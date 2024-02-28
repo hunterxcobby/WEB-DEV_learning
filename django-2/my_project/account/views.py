@@ -15,7 +15,7 @@ def register(request):
         email = request.POST['email']
         
         if password1 == password2:
-            if User.objects.filter(user_name=user_name).exists():
+            if User.objects.filter(username=user_name).exists():
                 print("Username taken already")
             else:
                 user = User.objects.create_user(username=user_name, password=password1, email=email, first_name=first_name, last_name=last_name)
