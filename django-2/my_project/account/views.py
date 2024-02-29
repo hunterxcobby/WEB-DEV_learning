@@ -6,7 +6,19 @@ from django.contrib import messages
 
 
 def login(request):
-    pass:
+    
+    if request == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = auth.authenticate(username=username, password=password)
+
+        if user is not None:
+            auth.login(request, user)
+            return redirect('/')
+
+    else:
+        return render(request, 'login.html')
 
 
 def register(request):
@@ -32,6 +44,7 @@ def register(request):
                 user = User.objects.create_user(username=user_name, password=password1, email=email, first_name=first_name, last_name=last_name)
                 user.save()
                 messages.info(request, "Account created successfully")
+                return redirect('login')
         else:
             messages.info(request, "Password does not match ")
             return redirect('register')
