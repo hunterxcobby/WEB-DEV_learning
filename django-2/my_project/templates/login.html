@@ -8,6 +8,7 @@
 <body>
     <h1>LOGIN</h1>
     <form action="login" method="post">
+        {% csrf_token %}
      <label>
         <h3>Username</h3>
         <input type="text" placeholder="Enter your username" name="username">
@@ -15,7 +16,8 @@
      <label>
         <h1>Password</h1>
         <input type="password" placeholder="Enter your password" name="password">
-     </label>   
+     </label><br>
+     <input type="submit">  
     </form>
 </body>
 </html>
