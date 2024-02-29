@@ -6,8 +6,8 @@ from django.contrib import messages
 
 
 def login(request):
-    
-    if request == 'POST':
+    if request.method == 'POST':
+        print("received data")
         username = request.POST['username']
         password = request.POST['password']
 
