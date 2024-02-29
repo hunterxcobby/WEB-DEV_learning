@@ -39,7 +39,9 @@
     </form>
   </div>
   <div>
-    {{messages}}
+    {% for message in messages%}
+     <h3>{{message}}</h3> 
+    {% endfor%}
   </div>
   <script>
     // Add any JavaScript validation/functionality here (optional)
