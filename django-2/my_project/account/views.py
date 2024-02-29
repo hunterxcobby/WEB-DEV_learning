@@ -17,13 +17,14 @@ def register(request):
         
         if password1 == password2:
             if User.objects.filter(username=user_name).exists():
-                print("Username taken already")
+                messages.info(request, "Username is already taken...")
             else:
                 user = User.objects.create_user(username=user_name, password=password1, email=email, first_name=first_name, last_name=last_name)
                 user.save()
-                print("User Created")
+                messages.info(request, "Account created successfully")
         else:
-            print("Password does not match, please confirm")
+            messages.info(request, "Password does not match ")
+            
         return redirect('/')
     else:
         return render(request, 'register.html')
