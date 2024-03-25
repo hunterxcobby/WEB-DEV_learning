@@ -5,7 +5,7 @@
 venv/
 
 # Ignore the Django settings file
-blogApi/settings.py
+# blogApi/settings.py
 
 # Ignore the database file
 db.sqlite3
