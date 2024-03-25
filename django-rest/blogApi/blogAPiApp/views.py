@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from .models import Post
+from .serializers import postSerializer
 
 # Create your views here.
 @api_view(['GET'])
@@ -9,4 +11,7 @@ def index(request):
 
 @api_view(['GET'])
 def get_posts(request):
-    pass
+    get_all_posts = Post.objects.all()
+    serializer = postSerializer(get_all_posts, many=True)
+    
+    return Response(serializer.data)
